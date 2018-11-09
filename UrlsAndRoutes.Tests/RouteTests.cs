@@ -70,9 +70,6 @@ namespace UrlsAndRoutes.Tests
         [TestMethod]
         public void TestIncommingRoots()
         {
-            TestRouteMatch("~/", "Home", "Index", new { id = "DefaultId" });
-            TestRouteMatch("~/Home/CustomVariable", "Home", "CustomVariable", new { id = "DefaultId" });
-            TestRouteMatch("~/Admin/List/All", "Admin", "List", new { id = "All" });
         }
     }
 }
