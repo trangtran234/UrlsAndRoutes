@@ -66,10 +66,5 @@ namespace UrlsAndRoutes.Tests
             // Assert
             Assert.IsTrue(result == null || result.Route == null); 
         }
-
-        [TestMethod]
-        public void TestIncommingRoots()
-        {
-        }
     }
 }

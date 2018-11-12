@@ -13,5 +13,9 @@
 <body>
     <div>The controller is: @ViewBag.Controller</div>
     <div>The action is: @ViewBag.Action</div>
+    <div>@Html.ActionLink("Click Me 1", "Index", "Admin", new { catalog = "Technicals" }, null)</div>
+    <div>@Html.ActionLink("Click Me 2", "Index", "Admin", new { id = 456 }, null)</div>
+    <div>@Html.ActionLink("Click Me 3", "Index", "Admin", new { catalog = "Cloths" }, null)</div>
+    <div>@Html.ActionLink("Click Me 4", "Index", "Admin", null, new { id = "myAnchorID", @class = "myCSSClass" })</div>
 </body>
 </html>
